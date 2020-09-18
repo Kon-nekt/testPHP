@@ -1,0 +1,15 @@
+{
+  "name": "frales/test",
+  "description": "test for ZUZEX",
+  "type": "project",
+  "require": {
+    "datto/json-rpc-http": "^5.0",
+    "illuminate/database": "^8.3",
+    "vlucas/phpdotenv": "^5.2"
+  },
+  "autoload": {
+    "classmap": [
+      "models"
+    ]
+  }
+}
